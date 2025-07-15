@@ -1,3 +1,26 @@
+# Python virtual environment
+# Jangan pernah commit folder environment!
+venv/
+.venv/
+env/
+.env/
+
+# Folder Konfigurasi PyCharm
+# Ini sangat penting agar pengaturan lokalmu tidak terkirim
+.idea/
+
+# Cache & File Terkompilasi Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File spesifik OS (opsional, tapi praktik yang baik)
+.DS_Store
+
+# File Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
